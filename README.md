@@ -1,5 +1,8 @@
 # portscan
+
+
 依赖
+./req.sh
 ```
 apt-get install -y python-dev
 apt-get install -y nmap
