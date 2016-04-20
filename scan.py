@@ -44,7 +44,5 @@ if __name__ == '__main__':
     g_lock.acquire()
     print "list all ip \n"
     lsip(mongodb)
-    g_lock.release()
     p = Portscan(threads_num=options.threads_num,mongodb = mongodb,g_lock =g_lock,Wdb = Wdb)
     p.run()
-    g_lock.acquire()
