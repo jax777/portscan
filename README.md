@@ -11,7 +11,7 @@ pip install python-nmap
 apt-get install -y freetds-dev
 pip install pymssql
 pip install redis
-pip install
+pip install python-memcached
 pip install 
 ```
 
