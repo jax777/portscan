@@ -1,17 +1,16 @@
 # portscan
 依赖
 ```
-apt-get install python-dev
-apt-get install nmap
+apt-get install -y python-dev
+apt-get install -y nmap
 pip install paramiko
-apt-get install python2.7-mysqldb
+apt-get install -y python2.7-mysqldb
 pip install dnspython
 pip install pymongo
 pip install python-nmap
-apt-get install freetds-dev
+apt-get install -y freetds-dev
 pip install pymssql
 pip install redis
-pip install python-librsync
 pip install
 pip install 
 ```
