@@ -34,6 +34,7 @@ class Portscan:
     def _startnmap(self):
         while self.queue.qsize() > 0 and not self.STOP_ME :
                 ip = self.queue.get(timeout=1.0)
+                print "start scan" + ip + "\n"
                 self.db.update({'ip': ip}, {"$set" : {'status' : 1}})
                 result = {}
                 try:
